@@ -1,0 +1,8 @@
+.env
+*.egg-info
+.pytest_cache
+__pycache__
+experiments/sandbox.py
+dist
+output
+venv
