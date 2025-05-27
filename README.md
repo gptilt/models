@@ -1,9 +1,20 @@
 # Models
 
-This folder contains different model families for GPTilt:
+Open models for the community!
 
-- `linear/`: Lightweight regressors
-- `mlp/`: Shallow neural networks
-- `transformer/`: Attention-based sequence models
+You can find the published models in [GPTilt's Hugging Face profile](https://huggingface.co/gptilt).
 
-Each subfolder contains its own `utils.py` and prediction heads.
+## Experiments
+
+This repository uses [CometML](https://comet.com) as the default platform for tracking experiments.
+All experiments are public.
+
+## Contributing
+
+Contributions are welcome! If you have ideas for new utilities, find bugs, or want to improve existing code, please feel free to open an issue or submit a pull request on the GitHub repository.
+
+## License
+
+All models are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
+GPTilt isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.

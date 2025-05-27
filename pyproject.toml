@@ -9,10 +9,15 @@ description = "Models and experiments for the GPTilt project."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "comet-ml >= 3.49.10",
+    "datasets >= 3.6.0",
+    "huggingface-hub >= 0.30.2",
     "numpy",
+    "pandas",
     "polars >= 1.27.1",
     "scikit-learn",
-    "torch",          # for later if you're using PyTorch models
+    "torch",
+    "tqdm >= 4.65.0",
 ]
 
 [project.optional-dependencies]
@@ -20,15 +25,6 @@ test = [
     "pytest",
 ]
 
-[tool.hatch.metadata]
-allow-direct-references = true
-
-[tool.hatch.build.targets.wheel]
-only-include = [
-    "gptilt_models",
-]
-
-[tool.hatch.build.targets.sdist]
-only-include = [
-    "gptilt_models",
-]
+[tool.hatch.build]
+include = ["src/**"]
+sources = ["src"]
