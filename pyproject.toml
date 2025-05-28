@@ -16,8 +16,10 @@ dependencies = [
     "pandas",
     "polars >= 1.27.1",
     "scikit-learn",
+    "shap >= 0.47.2",
     "torch",
     "tqdm >= 4.65.0",
+    "xgboost >= 3.0.2"
 ]
 
 [project.optional-dependencies]

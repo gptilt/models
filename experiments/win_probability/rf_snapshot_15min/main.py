@@ -27,10 +27,17 @@ def preprocessing(
 def main():
     dict_of_parameters = {
         'parameter_grid': {
-            'n_estimators': [400, 800, 1000],
+            'n_estimators': [300, 400, 500, 600],
             'max_depth': [25, 50, 100, None],
             'min_samples_split': [2, 5, 10]
-        }
+        },
+        'best_params': {
+            'n_estimators': 400,
+            'max_depth': 50,
+            'min_samples_split': 2,
+        },
+        'flag_optimize_hyperparameters': False,
+        'feature_importance_n': 30
     }
 
     repo_id = "gptilt/lol-ultimate-snapshot-challenger-15min"
