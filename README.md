@@ -6,8 +6,8 @@ You can find the published models in [GPTilt's Hugging Face profile](https://hug
 
 ## Experiments
 
-This repository uses [CometML](https://comet.com) as the default platform for tracking experiments.
-All experiments are public.
+This repository uses [Comet ML](https://comet.com) as the default platform for tracking experiments.
+All experiments are public, and can be found in [GPTilt's Comet ML workspace](https://www.comet.com/gptilt#projects).
 
 ## Contributing
 
